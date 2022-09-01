@@ -1,0 +1,132 @@
+.home-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.page-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+.health-title {
+  width: 200px;
+  height: 100%;
+
+  position: absolute;
+  left: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  color: aliceblue;
+}
+
+.send{
+
+
+}
+
+.health-value {
+  width: 100px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-start;
+
+  color: aliceblue;
+}
+
+.current-health-wrapper {
+  height: 50px;
+  width: 100%;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.current-health-wrapper:hover {
+  background-color: #141728;
+}
+
+.health-bad {
+  border-color: #f93b48;
+  color: #f93b48;
+}
+
+.health-normal {
+  border-color: #f8ae34;
+  color: #f8ae34;
+}
+
+.health-good {
+  border-color: #3bf971;
+  color: #3bf971;
+}
+
+.current-health-list {
+  width: 80%;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #0c0d17;
+}
+
+.LoginPage {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CurrentHealthPage {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.HealthHistoryPage {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
